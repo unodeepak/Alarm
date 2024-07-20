@@ -10,6 +10,7 @@ class Alarm {
 
 class AlarmClock {
   constructor() {
+    this.name = "New Item";
     this.alarms = [];
     this.snoozeTime = 5 * 60 * 1000; // 5 minutes in milliseconds
     this.start();
